@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="repository.jioTvPlugin" name="Repository" version="2.1.0" provider-name="sandeep1027">
+    <extension point="xbmc.addon.repository" name="Repository">
+        <dir minversion="18.0" maxversion="18.9">
+            <info compressed="false">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/</datadir>
+        </dir>
+        <dir minversion="19.0">
+            <info compressed="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.gz</info>
+            <checksum>https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.gz.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/</datadir>
+        </dir>
+        <dir minversion="20.0">
+            <info compressed="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.gz</info>
+            <checksum>https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.gz.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Repository for Kodi</summary>
+        <description>A Repository for Streaming Add-ons of Indian OTT Providers</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+            <clearlogo>icon.png</clearlogo>
+        </assets>
+    </extension>
+</addon>

@@ -7,7 +7,7 @@ import hashlib
 
 GITHUB_USERNAME = "sandeep1027"
 ADDONS = [
-    "repository.botallen",
+    "repository.jioTvPlugin",
     "jioTvPlugin"
 ]
 
