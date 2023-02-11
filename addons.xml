@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
 <addon id="repository.jioTvPlugin" name="Repository" version="2.1.0" provider-name="sandeep">
     <extension point="xbmc.addon.repository" name="Repository">
         <dir minversion="18.0" maxversion="18.9">
@@ -28,3 +29,36 @@
         </assets>
     </extension>
 </addon>
+
+<addon id="repository.jioTvPlugin " name="JioTV" version="2.1.0" provider-name="botallen">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.codequick" version="1.0.2"/>
+        <import addon="script.module.inputstreamhelper" version="0.5.10"/>
+        <import addon="inputstream.adaptive" minversion="2.6.6"/>
+        <import addon="script.module.m3u8" version="0.5.4"/>
+        <import addon="repository.jioTvPlugin" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Stream Live Indian Channels From JioTV on Kodi</summary>
+        <description lang="en_GB">Enjoy Live TV experience in Kodi.</description>
+        <language>en</language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum>https://www.reddit.com/r/jtvupdates/</forum>
+        <source>https://github.com/sandeep1027/jioTvPlugin</source>
+        <news>
+        </news>
+        <disclaimer>This plugin is not officially commissioned/supported by Jio. The trademark "Jio" is registered by "Reliance Corporate IT Park Limited (RCITPL)"</disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.png</fanart>
+        </assets>
+        <reuselanguageinvoker>true</reuselanguageinvoker>
+    </extension>
+</addon>
+</addons>
