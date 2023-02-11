@@ -40,7 +40,7 @@ class Generator:
             else:
                 print(addon, "remote")
                 resp = requests.get(
-                    f"https://raw.githubusercontent.com/sandeep1027/jioTvPlugin/b816fac8392e353bf40cecb6db5695a8dbf180a9/addon.xml")
+                    f"https://raw.githubusercontent.com/{GITHUB_USERNAME}/{addon}/main/addon.xml")
                 if resp.status_code != 200:
                     print(f"Invalid status code: {addon} - {resp.status_code}")
                     continue
