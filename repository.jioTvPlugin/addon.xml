@@ -4,17 +4,17 @@
         <dir minversion="18.0" maxversion="18.9">
             <info compressed="false">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml</info>
             <checksum>https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/tree/master/release</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/master/release</datadir>
         </dir>
         <dir minversion="19.0">
             <info compressed="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.gz</info>
             <checksum>https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.gz.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/tree/master/release</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/master/release</datadir>
         </dir>
         <dir minversion="20.0">
             <info compressed="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.gz</info>
             <checksum>https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.gz.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/tree/master/release</datadir>
+            <datadir zip="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/master/release</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
