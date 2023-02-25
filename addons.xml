@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.jioTvPlugin" name="Repository" version="2.1.0" provider-name="sandeep1027">
+<addon id="repository.jioTvPlugin" name="Repository" version="2.1.1" provider-name="sandeep1027">
     <extension point="xbmc.addon.repository" name="Repository">
         <dir minversion="18.0" maxversion="18.9">
-            <info compressed="false">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.md5</checksum>
+            <info compressed="false">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.1/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.1/addons.xml.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/master/release</datadir>
         </dir>
         <dir minversion="19.0">
-            <info compressed="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.gz</info>
-            <checksum>https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.gz.md5</checksum>
+            <info compressed="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.1/addons.xml.gz</info>
+            <checksum>https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.1/addons.xml.gz.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/master/release</datadir>
         </dir>
         <dir minversion="20.0">
-            <info compressed="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.gz</info>
-            <checksum>https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.0/addons.xml.gz.md5</checksum>
+            <info compressed="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.1/addons.xml.gz</info>
+            <checksum>https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/2.1.1/addons.xml.gz.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/sandeep1027/repository.jioTvPlugin/master/release</datadir>
         </dir>
     </extension>
@@ -30,14 +30,14 @@
     </extension>
 </addon>
 
-<addon id="jioTvPlugin" name="JioTV" version="2.1.0" provider-name="sandeep1027">
+<addon id="jioTvPlugin" name="JioTV" version="2.1.1" provider-name="sandeep1027">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.codequick" version="1.0.2"/>
         <import addon="script.module.inputstreamhelper" version="0.5.10"/>
         <import addon="inputstream.adaptive" minversion="2.6.6"/>
         <import addon="script.module.m3u8" version="0.5.4"/>
-        <import addon="repository.jioTvPlugin" version="2.1.0"/>
+        <import addon="repository.jioTvPlugin" version="2.1.1"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
